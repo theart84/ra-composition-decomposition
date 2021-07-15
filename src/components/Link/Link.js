@@ -7,7 +7,7 @@
 
 const Link = (props) => {
   return (
-    <a className={props.className} href={props.link}>
+    <a className={props.className} href={props.href}>
       {props.children}
     </a>
   );

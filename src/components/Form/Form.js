@@ -14,6 +14,7 @@ const Form = (props) => {
 
   return (
     <form
+      className={props.className}
       onSubmit={onSubmitHandler}
       action={props.action}
       method={props.method}

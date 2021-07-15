@@ -11,7 +11,7 @@ const Logo = (props) => (
   <div
     className={props.className}
   >
-    <Link link={props.logoURL}/>    
+    <Link className={props.linkClasses} href={props.href}>{props.children}</Link>
   </div>
 );
 

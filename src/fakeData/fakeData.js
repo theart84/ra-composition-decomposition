@@ -27,21 +27,27 @@ export const currency = [
   }
 ];
 
-export const categoryList = [
+export const serviceList = [
   'Видео',
   'Картинки',
   'Новости',
   'Карты',
   'Маркет',
-  'Перводчик',
+  'Переводчик',
   'Эфир',
   'еще',
 ]
 
 export const logoURL = [
-  'https://avatars.mds.yandex.net/get-ynews-logo/26056/1047-1478692902215-square/logo-square',
-  'https://avatars.mds.yandex.net/get-ynews-logo/26056/1047-1478692902215-square/logo-square',
-  'https://avatars.mds.yandex.net/get-ynews-logo/28627/254083361-1516267195536-square/logo-square',
-  'https://avatars.mds.yandex.net/get-ynews-logo/50744/1013-1496416510291-square/logo-square',
-  'https://avatars.mds.yandex.net/get-ynews-logo/50744/1551-1563808847385-square/logo-square'
+  'https://cdn.worldvectorlogo.com/logos/invision.svg',
+  'https://cdn.worldvectorlogo.com/logos/sketch.svg',
+  'https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg',
+  'https://cdn.worldvectorlogo.com/logos/la-lafayette-ragin-cajuns.svg',
+  'https://cdn.worldvectorlogo.com/logos/simfy.svg'
+];
+
+export const words = [
+  'Всё самое лучшее случается неожиданно.',
+  'Каждому свое красиво.',
+  'Где нет опасности, не может быть и славы.'
 ]

@@ -7,8 +7,8 @@ import React, {useState} from 'react';
  * @constructor
  */
 
-const SearchInput = (props) => {
-  const [input, setInput] = useState('initState');
+const Input = (props) => {
+  const [input, setInput] = useState('');
 
   const onChangeHandler = (event) => {
     const {value} = event.target;
@@ -28,4 +28,4 @@ const SearchInput = (props) => {
   )
 }
 
-export default SearchInput;
+export default Input;
