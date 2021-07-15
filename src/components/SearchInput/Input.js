@@ -13,7 +13,7 @@ const Input = (props) => {
   const onChangeHandler = (event) => {
     const {value} = event.target;
     setInput(value)
-    props.onChange(event)
+    // props.onChange(event)
   }
 
   return (
