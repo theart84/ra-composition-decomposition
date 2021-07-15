@@ -1,4 +1,5 @@
-import React from 'react';
+import ListItem from "../ListItem/ListItem";
+import Link from "../Link/Link";
 
 /**
  * Настраиваемый компонент списка
@@ -8,7 +9,7 @@ import React from 'react';
  */
 
 const DisorderedList = (props) => (
-  <ul className={props.className}>{props.children}</ul>
+  <ul className={props.className}>{props.children(props.items)}</ul>
 );
 
 export default DisorderedList;

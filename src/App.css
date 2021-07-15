@@ -3,3 +3,25 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.news-top-list {
+  list-style-type: none;
+  margin: 0 0 20px;
+  padding: 0;  
+}
+
+.news-top-list__horizontal {
+  display: flex;
+}
+
+.news-top-item {
+  margin-right: 20px;
+}
+
+.news-top-link {
+  text-decoration: none;
+}
+
+.news-top-link:visited {
+  color: black
+}

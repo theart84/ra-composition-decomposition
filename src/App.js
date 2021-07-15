@@ -1,11 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { TopNews } from "./components/TopNews/TopNews";
 
 function App() {
   return (
-    <div>
-     init
-    </div>
+    <>
+     <TopNews/>
+
+    </>
   );
 }
 

@@ -1,7 +1,7 @@
-import React from 'react';
+import Link from '../Link/Link'
 
 /**
- * Компонент принимает пропс для ссылки на изображение, можно также передать доп.разметку через props.children
+ * Настраиваемый компонент логотипа
  * @param props
  * @returns {JSX.Element}
  * @constructor
@@ -11,10 +11,7 @@ const Logo = (props) => (
   <div
     className={props.className}
   >
-    <a href={props.logoURL}
-    >
-      {props.children}
-    </a>
+    <Link link={props.logoURL}/>    
   </div>
 );
 
