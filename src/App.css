@@ -154,3 +154,14 @@ body {
 .d-flex {
   display: flex;
 }
+
+.image {
+  display: block;
+  max-width: 100%;
+}
+
+.banner-container {
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
